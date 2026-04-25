@@ -34,11 +34,12 @@ export default defineConfig(({ mode }) => {
         },
       ],
     },
-    server: { port: PORT, host: HOST, allowedHosts: 'all' },
+    server: { port: PORT, host: HOST, allowedHosts: ['projecteve-landingpage.onrender.com'] },
     optimizeDeps: { force: true },
     preview: {
       port: PORT,
       host: HOST,
+      allowedHosts: ['projecteve-landingpage.onrender.com'],
     },
     build: {
       rollupOptions: {
