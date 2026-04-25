@@ -1,0 +1,289 @@
+{
+  "navbar": {
+    "howItWorks": "Como funciona",
+    "features": "Funcionalidades",
+    "pricing": "Preços",
+    "faq": "Perguntas frequentes",
+    "signIn": "Entrar",
+    "signUp": "Criar conta grátis"
+  },
+  "hero": {
+    "headline": "Controle total das suas finanças com envelopes digitais",
+    "subheadline": "Organize seu orçamento, acompanhe seus gastos e alcance seus objetivos financeiros com o método de envelopes.",
+    "cta": "Começar gratuitamente",
+    "ctaSecondary": "Ver como funciona"
+  },
+  "trustBar": {
+    "users": "+10.000 usuários ativos",
+    "rating": "4.9 ★ avaliação",
+    "security": "Dados protegidos"
+  },
+  "howItWorks": {
+    "title": "Como funciona",
+    "subtitle": "Três passos simples para organizar seu dinheiro",
+    "steps": {
+      "step1": {
+        "number": "01",
+        "title": "Crie seus envelopes",
+        "description": "Defina categorias para cada tipo de gasto: alimentação, transporte, lazer e muito mais."
+      },
+      "step2": {
+        "number": "02",
+        "title": "Distribua sua renda",
+        "description": "Aloque seu salário entre os envelopes antes de começar a gastar no mês."
+      },
+      "step3": {
+        "number": "03",
+        "title": "Acompanhe em tempo real",
+        "description": "Veja exatamente quanto ainda tem disponível em cada envelope e evite gastos além do planejado."
+      }
+    }
+  },
+  "features": {
+    "title": "Tudo que você precisa",
+    "subtitle": "Funcionalidades pensadas para quem leva as finanças a sério",
+    "items": {
+      "envelopes": {
+        "title": "Envelopes digitais",
+        "description": "Organize seu orçamento em categorias visuais e intuitivas."
+      },
+      "income": {
+        "title": "Controle de renda",
+        "description": "Registre múltiplas fontes de renda e distribua automaticamente."
+      },
+      "goals": {
+        "title": "Metas financeiras",
+        "description": "Defina e acompanhe metas de economia de curto e longo prazo."
+      },
+      "debts": {
+        "title": "Gestão de dívidas",
+        "description": "Controle parcelas, juros e datas de vencimento em um só lugar."
+      },
+      "reports": {
+        "title": "Relatórios visuais",
+        "description": "Gráficos claros para entender para onde vai o seu dinheiro."
+      },
+      "multilang": {
+        "title": "Multi-idioma",
+        "description": "Disponível em português, inglês e espanhol."
+      }
+    }
+  },
+  "spotlight": {
+    "envelopes": {
+      "overline": "Método de envelopes",
+      "title": "Seu dinheiro organizado por categoria",
+      "description": "O método de envelopes é uma das técnicas mais eficazes para controle financeiro. No ProjectEVE, cada envelope representa uma categoria de gasto com orçamento definido.",
+      "bullets": [
+        "Limite de gastos por categoria",
+        "Visualização do saldo disponível em tempo real",
+        "Alertas quando o envelope estiver próximo do limite"
+      ],
+      "cta": "Experimentar grátis"
+    },
+    "dashboard": {
+      "overline": "Visão geral",
+      "title": "Tudo numa só tela",
+      "description": "O dashboard do ProjectEVE centraliza suas finanças: renda, despesas, metas e dívidas em um painel intuitivo e completo.",
+      "bullets": [
+        "Resumo financeiro do mês atual",
+        "Gráficos de evolução de gastos",
+        "Acesso rápido às ações mais usadas"
+      ],
+      "cta": "Ver o dashboard"
+    }
+  },
+  "testimonials": {
+    "title": "O que nossos usuários dizem",
+    "subtitle": "Milhares de pessoas já transformaram sua relação com o dinheiro",
+    "items": [
+      {
+        "name": "Ana Souza",
+        "role": "Professora",
+        "text": "Finalmente consegui organizar meu orçamento de forma simples. O método de envelopes mudou minha vida financeira."
+      },
+      {
+        "name": "Carlos Lima",
+        "role": "Desenvolvedor",
+        "text": "Já testei vários apps de finanças, mas o ProjectEVE é o único que me fez realmente mudar meus hábitos."
+      },
+      {
+        "name": "Mariana Costa",
+        "role": "Empreendedora",
+        "text": "Em 3 meses usando o app, consegui guardar o suficiente para uma viagem que planejava há anos."
+      },
+      {
+        "name": "Pedro Alves",
+        "role": "Engenheiro",
+        "text": "A visualização por envelopes é exatamente o que eu precisava. Simples, direto e eficiente."
+      },
+      {
+        "name": "Fernanda Rocha",
+        "role": "Designer",
+        "text": "Adorei a interface limpa e os relatórios. Finalmente entendo para onde vai meu dinheiro todo mês."
+      },
+      {
+        "name": "Lucas Martins",
+        "role": "Médico",
+        "text": "Uso o ProjectEVE há 6 meses. Minha reserva de emergência cresceu 40% nesse período."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Planos simples e transparentes",
+    "subtitle": "Sem surpresas. Cancele quando quiser.",
+    "monthly": "Mensal",
+    "annual": "Anual",
+    "saveLabel": "Economize 20%",
+    "ctaFree": "Começar grátis",
+    "ctaPaid": "Assinar agora",
+    "recommended": "Recomendado",
+    "plans": {
+      "free": {
+        "name": "Grátis",
+        "price": "R$ 0",
+        "period": "/mês",
+        "description": "Ideal para começar a organizar suas finanças",
+        "features": [
+          "Até 5 envelopes",
+          "1 fonte de renda",
+          "Relatórios básicos",
+          "Suporte por e-mail"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "R$ 19",
+        "priceAnnual": "R$ 15",
+        "period": "/mês",
+        "description": "Para quem leva as finanças a sério",
+        "features": [
+          "Envelopes ilimitados",
+          "Fontes de renda ilimitadas",
+          "Metas e dívidas",
+          "Relatórios avançados",
+          "Exportação de dados",
+          "Suporte prioritário"
+        ]
+      },
+      "family": {
+        "name": "Familiar",
+        "price": "R$ 29",
+        "priceAnnual": "R$ 23",
+        "period": "/mês",
+        "description": "Gestão financeira para toda a família",
+        "features": [
+          "Tudo do plano Pro",
+          "Até 5 usuários",
+          "Painel compartilhado",
+          "Metas familiares",
+          "Suporte VIP"
+        ]
+      }
+    }
+  },
+  "security": {
+    "title": "Seus dados protegidos",
+    "subtitle": "Segurança e privacidade são prioridade no ProjectEVE",
+    "items": {
+      "encryption": {
+        "title": "Criptografia",
+        "description": "Todos os seus dados são criptografados em trânsito e em repouso."
+      },
+      "privacy": {
+        "title": "Privacidade total",
+        "description": "Seus dados são seus. Nunca vendemos ou compartilhamos suas informações."
+      },
+      "backup": {
+        "title": "Backup automático",
+        "description": "Seus dados são salvos automaticamente na nuvem com redundância."
+      }
+    }
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "subtitle": "Tire suas dúvidas sobre o ProjectEVE",
+    "items": [
+      {
+        "question": "O ProjectEVE é gratuito?",
+        "answer": "Sim! Temos um plano gratuito com até 5 envelopes e 1 fonte de renda. Para funcionalidades avançadas, oferecemos planos pagos a partir de R$ 19/mês."
+      },
+      {
+        "question": "Meus dados financeiros são seguros?",
+        "answer": "Absolutamente. Utilizamos criptografia de ponta a ponta e seus dados nunca são compartilhados com terceiros. Você tem controle total sobre suas informações."
+      },
+      {
+        "question": "O que é o método de envelopes?",
+        "answer": "O método de envelopes é uma técnica de orçamento onde você divide sua renda em 'envelopes' (categorias) antes de gastar. Isso te ajuda a controlar gastos e evitar dívidas."
+      },
+      {
+        "question": "Posso usar em vários dispositivos?",
+        "answer": "Sim! O ProjectEVE é um aplicativo web que funciona em qualquer dispositivo com navegador: computador, tablet ou celular."
+      },
+      {
+        "question": "Posso cancelar a qualquer momento?",
+        "answer": "Sim, sem perguntas ou taxas de cancelamento. Você pode cancelar a assinatura a qualquer momento pelo painel de configurações."
+      },
+      {
+        "question": "Funciona offline?",
+        "answer": "Atualmente o ProjectEVE requer conexão com a internet. Estamos trabalhando em um modo offline para versões futuras."
+      },
+      {
+        "question": "Tem aplicativo mobile?",
+        "answer": "Por enquanto o ProjectEVE é um web app responsivo, funcionando bem em celulares. Um app nativo está no nosso roadmap."
+      },
+      {
+        "question": "Como migrar de outra ferramenta?",
+        "answer": "Você pode importar seus dados via planilha CSV. Nossa equipe de suporte pode ajudar no processo de migração."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Comece a controlar seu dinheiro hoje",
+    "subheadline": "Grátis, sem cartão de crédito, sem compromisso.",
+    "cta": "Criar conta grátis"
+  },
+  "footer": {
+    "tagline": "Controle financeiro por envelopes digitais",
+    "copyright": "© {{year}} ProjectEVE. Todos os direitos reservados.",
+    "columns": {
+      "product": {
+        "title": "Produto",
+        "links": {
+          "features": "Funcionalidades",
+          "pricing": "Preços",
+          "changelog": "Novidades"
+        }
+      },
+      "company": {
+        "title": "Empresa",
+        "links": {
+          "about": "Sobre nós",
+          "blog": "Blog",
+          "contact": "Contato"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "privacy": "Privacidade",
+          "terms": "Termos de uso"
+        }
+      }
+    }
+  },
+  "months": {
+    "january": "Janeiro",
+    "february": "Fevereiro",
+    "march": "Março",
+    "april": "Abril",
+    "may": "Maio",
+    "june": "Junho",
+    "july": "Julho",
+    "august": "Agosto",
+    "september": "Setembro",
+    "october": "Outubro",
+    "november": "Novembro",
+    "december": "Dezembro"
+  }
+}

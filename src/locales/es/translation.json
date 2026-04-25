@@ -1,0 +1,289 @@
+{
+  "navbar": {
+    "howItWorks": "Cómo funciona",
+    "features": "Funcionalidades",
+    "pricing": "Precios",
+    "faq": "Preguntas frecuentes",
+    "signIn": "Iniciar sesión",
+    "signUp": "Crear cuenta gratis"
+  },
+  "hero": {
+    "headline": "Control total de tus finanzas con sobres digitales",
+    "subheadline": "Organiza tu presupuesto, controla tus gastos y alcanza tus metas financieras con el método de sobres.",
+    "cta": "Empezar gratis",
+    "ctaSecondary": "Ver cómo funciona"
+  },
+  "trustBar": {
+    "users": "+10.000 usuarios activos",
+    "rating": "4.9 ★ valoración",
+    "security": "Datos protegidos"
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "subtitle": "Tres pasos simples para organizar tu dinero",
+    "steps": {
+      "step1": {
+        "number": "01",
+        "title": "Crea tus sobres",
+        "description": "Define categorías para cada tipo de gasto: alimentación, transporte, entretenimiento y más."
+      },
+      "step2": {
+        "number": "02",
+        "title": "Distribuye tus ingresos",
+        "description": "Asigna tu salario a los sobres antes de comenzar a gastar cada mes."
+      },
+      "step3": {
+        "number": "03",
+        "title": "Controla en tiempo real",
+        "description": "Ve exactamente cuánto tienes disponible en cada sobre y evita gastar de más."
+      }
+    }
+  },
+  "features": {
+    "title": "Todo lo que necesitas",
+    "subtitle": "Funcionalidades diseñadas para quienes toman sus finanzas en serio",
+    "items": {
+      "envelopes": {
+        "title": "Sobres digitales",
+        "description": "Organiza tu presupuesto en categorías visuales e intuitivas."
+      },
+      "income": {
+        "title": "Control de ingresos",
+        "description": "Registra múltiples fuentes de ingreso y distribúyelas automáticamente."
+      },
+      "goals": {
+        "title": "Metas financieras",
+        "description": "Define y rastrea metas de ahorro a corto y largo plazo."
+      },
+      "debts": {
+        "title": "Gestión de deudas",
+        "description": "Controla cuotas, intereses y fechas de vencimiento en un solo lugar."
+      },
+      "reports": {
+        "title": "Informes visuales",
+        "description": "Gráficos claros para entender a dónde va tu dinero."
+      },
+      "multilang": {
+        "title": "Multi-idioma",
+        "description": "Disponible en portugués, inglés y español."
+      }
+    }
+  },
+  "spotlight": {
+    "envelopes": {
+      "overline": "Método de sobres",
+      "title": "Tu dinero organizado por categoría",
+      "description": "El método de sobres es una de las técnicas más efectivas para el control financiero. En ProjectEVE, cada sobre representa una categoría de gasto con un presupuesto definido.",
+      "bullets": [
+        "Límite de gastos por categoría",
+        "Visualización del saldo disponible en tiempo real",
+        "Alertas cuando un sobre esté cerca de su límite"
+      ],
+      "cta": "Probar gratis"
+    },
+    "dashboard": {
+      "overline": "Vista general",
+      "title": "Todo en una sola pantalla",
+      "description": "El panel de ProjectEVE centraliza tus finanzas: ingresos, gastos, metas y deudas en un panel intuitivo y completo.",
+      "bullets": [
+        "Resumen financiero del mes actual",
+        "Gráficos de evolución de gastos",
+        "Acceso rápido a las acciones más utilizadas"
+      ],
+      "cta": "Ver el panel"
+    }
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros usuarios",
+    "subtitle": "Miles de personas ya transformaron su relación con el dinero",
+    "items": [
+      {
+        "name": "Ana Souza",
+        "role": "Profesora",
+        "text": "Por fin logré organizar mi presupuesto de forma simple. El método de sobres cambió mi vida financiera."
+      },
+      {
+        "name": "Carlos Lima",
+        "role": "Desarrollador",
+        "text": "Probé varias apps de finanzas, pero ProjectEVE es la única que realmente cambió mis hábitos."
+      },
+      {
+        "name": "Mariana Costa",
+        "role": "Emprendedora",
+        "text": "En 3 meses usando la app, ahorré suficiente para un viaje que planeaba desde hacía años."
+      },
+      {
+        "name": "Pedro Alves",
+        "role": "Ingeniero",
+        "text": "La visualización por sobres es exactamente lo que necesitaba. Simple, directo y eficiente."
+      },
+      {
+        "name": "Fernanda Rocha",
+        "role": "Diseñadora",
+        "text": "Me encantó la interfaz limpia y los informes. Por fin entiendo a dónde va mi dinero cada mes."
+      },
+      {
+        "name": "Lucas Martins",
+        "role": "Médico",
+        "text": "Llevo 6 meses usando ProjectEVE. Mi fondo de emergencia creció un 40% en ese período."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Precios simples y transparentes",
+    "subtitle": "Sin sorpresas. Cancela cuando quieras.",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "saveLabel": "Ahorra 20%",
+    "ctaFree": "Empezar gratis",
+    "ctaPaid": "Suscribirse ahora",
+    "recommended": "Recomendado",
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "price": "$0",
+        "period": "/mes",
+        "description": "Ideal para comenzar a organizar tus finanzas",
+        "features": [
+          "Hasta 5 sobres",
+          "1 fuente de ingresos",
+          "Informes básicos",
+          "Soporte por email"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$9",
+        "priceAnnual": "$7",
+        "period": "/mes",
+        "description": "Para quienes toman las finanzas en serio",
+        "features": [
+          "Sobres ilimitados",
+          "Fuentes de ingreso ilimitadas",
+          "Metas y deudas",
+          "Informes avanzados",
+          "Exportación de datos",
+          "Soporte prioritario"
+        ]
+      },
+      "family": {
+        "name": "Familiar",
+        "price": "$14",
+        "priceAnnual": "$11",
+        "period": "/mes",
+        "description": "Gestión financiera para toda la familia",
+        "features": [
+          "Todo el plan Pro",
+          "Hasta 5 usuarios",
+          "Panel compartido",
+          "Metas familiares",
+          "Soporte VIP"
+        ]
+      }
+    }
+  },
+  "security": {
+    "title": "Tus datos protegidos",
+    "subtitle": "La seguridad y privacidad son prioridad en ProjectEVE",
+    "items": {
+      "encryption": {
+        "title": "Cifrado",
+        "description": "Todos tus datos están cifrados en tránsito y en reposo."
+      },
+      "privacy": {
+        "title": "Privacidad total",
+        "description": "Tus datos son tuyos. Nunca vendemos ni compartimos tu información."
+      },
+      "backup": {
+        "title": "Copia de seguridad automática",
+        "description": "Tus datos se guardan automáticamente en la nube con redundancia."
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Resuelve tus dudas sobre ProjectEVE",
+    "items": [
+      {
+        "question": "¿ProjectEVE es gratuito?",
+        "answer": "¡Sí! Tenemos un plan gratuito con hasta 5 sobres y 1 fuente de ingresos. Para funcionalidades avanzadas, ofrecemos planes de pago desde $9/mes."
+      },
+      {
+        "question": "¿Mis datos financieros están seguros?",
+        "answer": "Absolutamente. Utilizamos cifrado de extremo a extremo y tus datos nunca se comparten con terceros."
+      },
+      {
+        "question": "¿Qué es el método de sobres?",
+        "answer": "El método de sobres es una técnica de presupuesto donde divides tus ingresos en 'sobres' (categorías) antes de gastar. Te ayuda a controlar gastos y evitar deudas."
+      },
+      {
+        "question": "¿Puedo usarlo en varios dispositivos?",
+        "answer": "¡Sí! ProjectEVE es una aplicación web que funciona en cualquier dispositivo con navegador: computadora, tablet o teléfono."
+      },
+      {
+        "question": "¿Puedo cancelar en cualquier momento?",
+        "answer": "Sí, sin preguntas ni cargos por cancelación. Puedes cancelar tu suscripción en cualquier momento desde el panel de configuración."
+      },
+      {
+        "question": "¿Funciona sin conexión?",
+        "answer": "Actualmente ProjectEVE requiere conexión a internet. Estamos trabajando en un modo sin conexión para versiones futuras."
+      },
+      {
+        "question": "¿Hay aplicación móvil?",
+        "answer": "Por ahora ProjectEVE es una web app responsiva que funciona bien en móviles. Una app nativa está en nuestro roadmap."
+      },
+      {
+        "question": "¿Cómo migrar desde otra herramienta?",
+        "answer": "Puedes importar tus datos mediante una hoja de cálculo CSV. Nuestro equipo de soporte puede ayudarte en el proceso."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Empieza a controlar tu dinero hoy",
+    "subheadline": "Gratis, sin tarjeta de crédito, sin compromiso.",
+    "cta": "Crear cuenta gratis"
+  },
+  "footer": {
+    "tagline": "Control financiero mediante sobres digitales",
+    "copyright": "© {{year}} ProjectEVE. Todos los derechos reservados.",
+    "columns": {
+      "product": {
+        "title": "Producto",
+        "links": {
+          "features": "Funcionalidades",
+          "pricing": "Precios",
+          "changelog": "Novedades"
+        }
+      },
+      "company": {
+        "title": "Empresa",
+        "links": {
+          "about": "Sobre nosotros",
+          "blog": "Blog",
+          "contact": "Contacto"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "privacy": "Privacidad",
+          "terms": "Términos de uso"
+        }
+      }
+    }
+  },
+  "months": {
+    "january": "Enero",
+    "february": "Febrero",
+    "march": "Marzo",
+    "april": "Abril",
+    "may": "Mayo",
+    "june": "Junio",
+    "july": "Julio",
+    "august": "Agosto",
+    "september": "Septiembre",
+    "october": "Octubre",
+    "november": "Noviembre",
+    "december": "Diciembre"
+  }
+}

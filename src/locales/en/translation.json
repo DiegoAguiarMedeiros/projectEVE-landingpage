@@ -1,0 +1,289 @@
+{
+  "navbar": {
+    "howItWorks": "How it works",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "signIn": "Sign in",
+    "signUp": "Get started free"
+  },
+  "hero": {
+    "headline": "Take full control of your finances with digital envelopes",
+    "subheadline": "Organize your budget, track your spending, and reach your financial goals with the envelope method.",
+    "cta": "Get started for free",
+    "ctaSecondary": "See how it works"
+  },
+  "trustBar": {
+    "users": "10,000+ active users",
+    "rating": "4.9 ★ rating",
+    "security": "Protected data"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "subtitle": "Three simple steps to organize your money",
+    "steps": {
+      "step1": {
+        "number": "01",
+        "title": "Create your envelopes",
+        "description": "Define categories for each type of expense: food, transportation, entertainment, and more."
+      },
+      "step2": {
+        "number": "02",
+        "title": "Distribute your income",
+        "description": "Allocate your salary to envelopes before you start spending each month."
+      },
+      "step3": {
+        "number": "03",
+        "title": "Track in real time",
+        "description": "See exactly how much is left in each envelope and avoid overspending."
+      }
+    }
+  },
+  "features": {
+    "title": "Everything you need",
+    "subtitle": "Features built for people who take their finances seriously",
+    "items": {
+      "envelopes": {
+        "title": "Digital envelopes",
+        "description": "Organize your budget into visual, intuitive categories."
+      },
+      "income": {
+        "title": "Income tracking",
+        "description": "Register multiple income sources and distribute automatically."
+      },
+      "goals": {
+        "title": "Financial goals",
+        "description": "Set and track short and long-term savings goals."
+      },
+      "debts": {
+        "title": "Debt management",
+        "description": "Control installments, interest, and due dates in one place."
+      },
+      "reports": {
+        "title": "Visual reports",
+        "description": "Clear charts to understand where your money goes."
+      },
+      "multilang": {
+        "title": "Multi-language",
+        "description": "Available in Portuguese, English, and Spanish."
+      }
+    }
+  },
+  "spotlight": {
+    "envelopes": {
+      "overline": "Envelope method",
+      "title": "Your money organized by category",
+      "description": "The envelope method is one of the most effective budgeting techniques. In ProjectEVE, each envelope represents a spending category with a defined budget.",
+      "bullets": [
+        "Spending limit per category",
+        "Real-time balance visibility",
+        "Alerts when an envelope is near its limit"
+      ],
+      "cta": "Try for free"
+    },
+    "dashboard": {
+      "overline": "Overview",
+      "title": "Everything in one screen",
+      "description": "The ProjectEVE dashboard centralizes your finances: income, expenses, goals and debts in one intuitive and complete panel.",
+      "bullets": [
+        "Monthly financial summary",
+        "Spending trend charts",
+        "Quick access to most-used actions"
+      ],
+      "cta": "See the dashboard"
+    }
+  },
+  "testimonials": {
+    "title": "What our users say",
+    "subtitle": "Thousands of people have already transformed their relationship with money",
+    "items": [
+      {
+        "name": "Ana Souza",
+        "role": "Teacher",
+        "text": "I finally managed to organize my budget in a simple way. The envelope method changed my financial life."
+      },
+      {
+        "name": "Carlos Lima",
+        "role": "Developer",
+        "text": "I tested several finance apps, but ProjectEVE is the only one that made me actually change my habits."
+      },
+      {
+        "name": "Mariana Costa",
+        "role": "Entrepreneur",
+        "text": "In 3 months using the app, I saved enough for a trip I had been planning for years."
+      },
+      {
+        "name": "Pedro Alves",
+        "role": "Engineer",
+        "text": "The envelope visualization is exactly what I needed. Simple, straightforward, and efficient."
+      },
+      {
+        "name": "Fernanda Rocha",
+        "role": "Designer",
+        "text": "I loved the clean interface and the reports. I finally understand where my money goes every month."
+      },
+      {
+        "name": "Lucas Martins",
+        "role": "Doctor",
+        "text": "I've been using ProjectEVE for 6 months. My emergency fund grew by 40% in that period."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "subtitle": "No surprises. Cancel anytime.",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "saveLabel": "Save 20%",
+    "ctaFree": "Get started free",
+    "ctaPaid": "Subscribe now",
+    "recommended": "Recommended",
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "period": "/month",
+        "description": "Perfect for getting started",
+        "features": [
+          "Up to 5 envelopes",
+          "1 income source",
+          "Basic reports",
+          "Email support"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$9",
+        "priceAnnual": "$7",
+        "period": "/month",
+        "description": "For those who take finances seriously",
+        "features": [
+          "Unlimited envelopes",
+          "Unlimited income sources",
+          "Goals and debts",
+          "Advanced reports",
+          "Data export",
+          "Priority support"
+        ]
+      },
+      "family": {
+        "name": "Family",
+        "price": "$14",
+        "priceAnnual": "$11",
+        "period": "/month",
+        "description": "Financial management for the whole family",
+        "features": [
+          "Everything in Pro",
+          "Up to 5 users",
+          "Shared dashboard",
+          "Family goals",
+          "VIP support"
+        ]
+      }
+    }
+  },
+  "security": {
+    "title": "Your data is protected",
+    "subtitle": "Security and privacy are a priority at ProjectEVE",
+    "items": {
+      "encryption": {
+        "title": "Encryption",
+        "description": "All your data is encrypted in transit and at rest."
+      },
+      "privacy": {
+        "title": "Full privacy",
+        "description": "Your data is yours. We never sell or share your information."
+      },
+      "backup": {
+        "title": "Automatic backup",
+        "description": "Your data is automatically saved to the cloud with redundancy."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Get answers about ProjectEVE",
+    "items": [
+      {
+        "question": "Is ProjectEVE free?",
+        "answer": "Yes! We have a free plan with up to 5 envelopes and 1 income source. For advanced features, we offer paid plans starting at $9/month."
+      },
+      {
+        "question": "Is my financial data safe?",
+        "answer": "Absolutely. We use end-to-end encryption and your data is never shared with third parties. You have full control over your information."
+      },
+      {
+        "question": "What is the envelope method?",
+        "answer": "The envelope method is a budgeting technique where you divide your income into 'envelopes' (categories) before spending. It helps you control expenses and avoid debt."
+      },
+      {
+        "question": "Can I use it on multiple devices?",
+        "answer": "Yes! ProjectEVE is a web app that works on any device with a browser: computer, tablet, or phone."
+      },
+      {
+        "question": "Can I cancel anytime?",
+        "answer": "Yes, no questions or cancellation fees. You can cancel your subscription at any time from the settings panel."
+      },
+      {
+        "question": "Does it work offline?",
+        "answer": "ProjectEVE currently requires an internet connection. We are working on an offline mode for future versions."
+      },
+      {
+        "question": "Is there a mobile app?",
+        "answer": "For now, ProjectEVE is a responsive web app that works well on mobile. A native app is on our roadmap."
+      },
+      {
+        "question": "How do I migrate from another tool?",
+        "answer": "You can import your data via CSV spreadsheet. Our support team can help with the migration process."
+      }
+    ]
+  },
+  "finalCta": {
+    "headline": "Start controlling your money today",
+    "subheadline": "Free, no credit card, no commitment.",
+    "cta": "Create free account"
+  },
+  "footer": {
+    "tagline": "Financial control through digital envelopes",
+    "copyright": "© {{year}} ProjectEVE. All rights reserved.",
+    "columns": {
+      "product": {
+        "title": "Product",
+        "links": {
+          "features": "Features",
+          "pricing": "Pricing",
+          "changelog": "Changelog"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About us",
+          "blog": "Blog",
+          "contact": "Contact"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "privacy": "Privacy policy",
+          "terms": "Terms of service"
+        }
+      }
+    }
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  }
+}
