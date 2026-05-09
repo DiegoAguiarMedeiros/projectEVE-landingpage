@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import Box from '@mui/material/Box';
@@ -17,75 +16,14 @@ const APP_URL = import.meta.env.VITE_APP_URL ?? '#';
 
 // ----------------------------------------------------------------------
 
-type ScreenshotBoxProps = {
-  src: string;
-  alt: string;
-  eager?: boolean;
-};
-
-function ScreenshotBox({ src, alt, eager }: ScreenshotBoxProps) {
-  const theme = useTheme();
-  const [imgError, setImgError] = useState(false);
-
-  return (
-    <Box
-      sx={{
-        borderRadius: 3,
-        overflow: 'hidden',
-        boxShadow: theme.customShadows.z24,
-        border: `1px solid ${varAlpha(theme.palette.grey['500Channel'], 0.12)}`,
-        bgcolor: 'background.paper',
-        aspectRatio: '16/10',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-    >
-      {!imgError ? (
-        <Box
-          component="img"
-          src={src}
-          alt={alt}
-          loading={eager ? 'eager' : 'lazy'}
-          onError={() => setImgError(true)}
-          sx={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-        />
-      ) : (
-        <Stack spacing={1.5} alignItems="center" sx={{ opacity: 0.4 }}>
-          <Box
-            sx={{
-              width: 64,
-              height: 64,
-              borderRadius: '50%',
-              bgcolor: 'primary.main',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}
-          >
-            <Typography variant="h4" sx={{ color: 'white', fontWeight: 800 }}>
-              EVE
-            </Typography>
-          </Box>
-          <Typography variant="body2" color="text.secondary">
-            {alt}
-          </Typography>
-        </Stack>
-      )}
-    </Box>
-  );
-}
-
-// ----------------------------------------------------------------------
-
 export function HeroSection() {
   const { t } = useTranslation();
   const theme = useTheme();
+  const isDark = theme.palette.mode === 'dark';
 
-  const handleScrollToHowItWorks = () => {
-    const el = document.querySelector('#how-it-works');
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-  };
+  const dashboardSrc = isDark
+    ? '/assets/screenshots/mockup-dashboard-dark.png'
+    : '/assets/screenshots/mockup-dashboard-light.png';
 
   return (
     <Box
@@ -106,7 +44,7 @@ export function HeroSection() {
               <Typography
                 variant="h1"
                 sx={{
-                  color: theme.palette.mode === 'dark' ? 'common.white' : 'grey.800',
+                  color: isDark ? 'common.white' : 'white',
                 }}
               >
                 {t('hero.headline')}
@@ -115,7 +53,7 @@ export function HeroSection() {
               <Typography
                 variant="body1"
                 sx={{
-                  color: theme.palette.mode === 'dark' ? 'grey.300' : 'grey.600',
+                  color: isDark ? 'grey.300' : 'white',
                   maxWidth: 480,
                   lineHeight: 1.8,
                 }}
@@ -125,36 +63,54 @@ export function HeroSection() {
 
               <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} sx={{ pt: 1 }}>
                 <Button
-                  variant="contained"
+                  fullWidth
+                  variant="outlined"
                   size="large"
                   href={`${APP_URL}/cadastro`}
-                  sx={{ px: 4, minWidth: 200 }}
+                  sx={{ px: 4, minWidth: 200, color: 'white', borderColor: 'white' }}
                 >
                   {t('hero.cta')}
                 </Button>
-                <Button
-                  variant="outlined"
-                  size="large"
-                  onClick={handleScrollToHowItWorks}
-                  sx={{
-                    px: 4,
-                    borderColor: varAlpha(theme.palette.grey['500Channel'], 0.4),
-                    color: theme.palette.mode === 'dark' ? 'common.white' : 'grey.800',
-                  }}
-                >
-                  {t('hero.ctaSecondary')}
-                </Button>
+
               </Stack>
             </Stack>
           </Grid2>
 
-          {/* Screenshot / placeholder */}
           <Grid2 size={{ xs: 12, md: 6 }}>
-            <ScreenshotBox
-              src="/assets/screenshots/dashboard.png"
-              alt="ProjectEVE dashboard"
-              eager
-            />
+            <Box
+              sx={{
+                position: 'relative',
+                borderRadius: 4,
+                overflow: 'hidden',
+                aspectRatio: '4/3',
+                boxShadow: theme.customShadows.z24,
+              }}
+            >
+              <Box
+                sx={{
+                  position: 'absolute',
+                  inset: 0,
+                  background: isDark
+                    ? 'linear-gradient(160deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.15) 60%, rgba(0,0,0,0.45) 100%)'
+                    : 'linear-gradient(160deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.05) 60%, rgba(0,0,0,0.30) 100%)',
+                  transition: 'background 0.3s ease',
+                }}
+
+              >
+                <Box
+                  component="img"
+                  src={dashboardSrc}
+                  alt={`ProjectEVE dashboard - modo ${isDark ? 'escuro' : 'claro'}`}
+                  loading="eager"
+                  sx={{
+                    height: '100%',
+                    display: 'block',
+                    objectFit: 'cover',
+                    transition: 'opacity 0.4s ease',
+                  }}
+                />
+              </Box>
+            </Box>
           </Grid2>
         </Grid2>
       </Container>

@@ -28,7 +28,6 @@ type SpotlightItemProps = {
 function SpotlightItem({ spotlightKey, screenshotSrc, screenshotAlt, reversed }: SpotlightItemProps) {
   const { t } = useTranslation();
   const theme = useTheme();
-
   const bullets = t(`spotlight.${spotlightKey}.bullets`, { returnObjects: true }) as string[];
 
   const textContent = (
@@ -120,18 +119,26 @@ function SpotlightItem({ spotlightKey, screenshotSrc, screenshotAlt, reversed }:
 // ----------------------------------------------------------------------
 
 export function FeatureSpotlightSection() {
+  const theme = useTheme();
+  const isDark = theme.palette.mode === 'dark';
+  const envelopesSrc = isDark
+    ? '/assets/screenshots/envelopes-dark.png'
+    : '/assets/screenshots/envelopes-light.png';
+  const dashboardSrc = isDark
+    ? '/assets/screenshots/dashboard-dark.png'
+    : '/assets/screenshots/dashboard-light.png';
   return (
     <Box component="section" sx={{ py: { xs: 8, md: 12 } }}>
       <Container maxWidth="lg">
         <Stack spacing={{ xs: 8, md: 12 }}>
           <SpotlightItem
             spotlightKey="envelopes"
-            screenshotSrc="/assets/screenshots/envelopes.png"
+            screenshotSrc={envelopesSrc}
             screenshotAlt="Tela de envelopes do ProjectEVE"
           />
           <SpotlightItem
             spotlightKey="dashboard"
-            screenshotSrc="/assets/screenshots/dashboard.png"
+            screenshotSrc={dashboardSrc}
             screenshotAlt="Dashboard do ProjectEVE"
             reversed
           />

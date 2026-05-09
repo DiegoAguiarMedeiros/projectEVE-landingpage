@@ -39,7 +39,6 @@ export function TrustBar() {
                 width: 1,
                 height: 'auto',
                 display: { xs: 'none', sm: 'block' },
-                borderLeft: `1px solid ${varAlpha(theme.palette.grey['500Channel'], 0.2)}`,
               }}
             />
           }
@@ -51,7 +50,7 @@ export function TrustBar() {
               spacing={1.5}
               alignItems="center"
               justifyContent="center"
-              sx={{ flex: 1, px: 3 }}
+              sx={{ flex: 1, px: 1 }}
             >
               <Iconify icon={item.icon} width={24} sx={{ color: item.color, flexShrink: 0 }} />
               <Typography variant="subtitle2" sx={{ fontWeight: 600 }}>
