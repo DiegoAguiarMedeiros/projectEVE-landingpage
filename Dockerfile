@@ -10,7 +10,10 @@ RUN npm run build
 
 FROM nginx:alpine
 
+ENV PORT=3040
+
 COPY --from=builder /app/dist /usr/share/nginx/html
+COPY nginx.conf.template /etc/nginx/templates/default.conf.template
 
 EXPOSE 3040
 
